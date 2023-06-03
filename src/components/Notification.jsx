@@ -17,7 +17,10 @@ const Notification = ({ title, desc, image, numberOfQuestions }) => {
   const cusMinus = minutes > 1 ? "minutes" : "minute";
   const cusSecond = seconds > 1 ? "seconds" : "second";
 
-  const cusTime = `${minutes} ${cusMinus} ${seconds} ${cusSecond}`
+  const cusTime =
+    minutes > 0
+      ? `${minutes} ${cusMinus} ${seconds} ${cusSecond}`
+      : `${seconds} ${cusSecond}`;
 
   function handlePlayAgain() {
     setGameStarted(false);
