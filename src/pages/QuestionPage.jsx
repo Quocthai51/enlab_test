@@ -140,7 +140,6 @@ const QuestionPage = () => {
             {currentQuestion > 0 && (
               <button
                 className="QuestionPage__Btn"
-                disabled={!allQuestions[currentQuestion]?.selected}
                 onClick={() =>
                    setCurrentQuestion(currentQuestion - 1)
                    
