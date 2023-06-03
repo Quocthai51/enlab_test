@@ -1,0 +1,24 @@
+.Notification{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+ 
+}
+.Notification__Image{
+    width: 100px;
+    height: 100px;
+}
+.Notification__Btn{
+  background-color: #4d5b9e;
+  border-radius: 15px;
+  color: white;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: 1px solid #4d5b9e;
+  margin-top: 15px;
+ 
+  cursor: pointer;
+}
+

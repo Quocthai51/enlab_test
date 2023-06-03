@@ -1,0 +1,6 @@
+.Timer{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    gap: 7px
+}

@@ -1,0 +1,40 @@
+.App__header {
+  background-color: #F5F7FB;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+
+}
+
+.art--rightTop{
+  position: absolute;
+  right: 0;
+  top:0
+  
+}
+
+.art--leftBottom{
+  position: absolute;
+  left: 0;
+  bottom:0
+}
+
+.App__description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.App__startBtn {
+  background-color: #4D5B9E;
+  border-radius: 15px;
+  color: white;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: 1px solid #4D5B9E;
+  z-index: 0;
+  cursor: pointer;
+}

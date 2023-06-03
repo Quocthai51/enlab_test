@@ -1,0 +1,72 @@
+.QuestionPage {
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.QuestionPage__CloseBtn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 20px 20px;
+  cursor: pointer;
+}
+.QuestionPage__Timer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 20px 20px;
+}
+.QuestionPage__Notification {
+  padding: 30px 40px;
+  margin-inline: 25px;
+  background-color: white;
+  position: absolute;
+  z-index: 1;
+  border-radius: 16px;
+  box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+}
+.QuestionPage__Btn{
+    cursor: pointer;
+    background-color: #4d5b9e;
+    border-radius: 15px;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: 1px solid #4d5b9e;
+    margin-top: 15px;
+
+}
+
+.QuestionPage__Btn:disabled{
+  cursor: pointer;
+  background-color: #959fcb;
+  border-radius: 15px;
+  color: #f2f2f2;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: 1px solid #959fcb;
+  margin-top: 15px;
+
+}
+
+.QuestionPage__Btn:hover{
+  background-color: #3a4476;
+  border: 1px solid #3a4476;
+}
+
+.QuestionPage__Question{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-inline: 20px;
+
+}
+
+.QuestionPage__GroupBtn{
+  display: flex;
+  gap:20px
+}
